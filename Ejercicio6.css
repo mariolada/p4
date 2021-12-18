@@ -1,0 +1,119 @@
+  /* Formulario */
+/*Especifidad 000*/
+*{box-sizing:border-box;}
+
+/*Especifidad 001*/
+form{
+
+  padding:1.2em;
+  border-radius:1.5em;
+  margin:auto;
+  background-color:#ccc;
+  color: black;
+  text-align: center;
+}
+
+
+/*Especifidad 001*/
+label {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1em;
+  font-style: italic;
+  color: rgb(131, 0, 0);
+}
+
+
+/*Especifidad 001*/
+legend {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1em;
+  font-style: italic;
+  color:  rgb(131, 0, 0);
+}
+
+
+
+
+/*Especifidad 012*/
+form input
+{
+  font-size: 0.8em;
+  color:rgb(0, 0, 0);
+  width:30%;
+  border:1em solid #f6f6f6;
+  border-radius:0.2em;
+  background-color:#f6f6f6;
+  margin:1em 0;
+  display:inline-block;
+
+}
+
+/*Especifidad 012*/
+form input[type="submit"],
+form input[type="file"]{
+  width:100%;
+  padding:1em 1em;
+  margin-top:1em;
+  border:0.1em solid #000;
+  border-radius:1em;
+  display:block;
+  color:#fff;
+  background-color:#000;
+} 
+form input[type="text"]{
+  width:100%;
+  padding:1em 1em;
+  margin-top:1em;
+  border:0.1em solid rgb(0, 225, 255);
+  border-radius:1em;
+  display:block;
+  color:rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
+} 
+/*Especifidad 022*/
+form input[type="submit"]:hover{
+  cursor:pointer;
+}
+
+
+
+/*Especifidad 002*/
+body>header {
+grid-column-start:1 ;
+grid-column-end:3 ;
+
+
+}
+
+
+
+/*Especifidad 002*/
+body>section{
+grid-column-start:1 ;
+grid-column-end:2 ;
+
+grid-row-start:2 ;
+grid-row-end:3 ;
+  
+
+
+}
+
+
+/*Especifidad 002*/
+body>footer {
+display: grid;
+grid-template-columns: repeat(5,1fr);
+justify-content: center;
+align-items: center;
+
+grid-column-start:1 ;
+grid-column-end:3 ;
+
+grid-row-start:3 ;
+grid-row-end:4 ;
+
+
+}
+
+
