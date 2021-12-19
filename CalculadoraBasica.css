@@ -63,6 +63,12 @@ body > form>input[type = submit]:nth-child(4n+2) {
     background-color: rgb(255, 93, 93);
 
 }
+/*Especificidad (0,2,3)*/
+body > form>input[type = submit][value = '='] {
+    color:black;
+    background-color: rgb(255, 255, 255);
+
+}
 
 
 

@@ -2,6 +2,10 @@
 /*Especifidad 000*/
 *{box-sizing:border-box;}
 
+body {
+  background-color: rgb(255, 243, 177);
+}
+
 /*Especifidad 001*/
 form{
 
