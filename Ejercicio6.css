@@ -22,6 +22,10 @@ label {
   color: rgb(131, 0, 0);
 }
 
+form > p {
+  font-size: 1.2em;
+  font-family: 'Courier New', Courier, monospace;
+}
 
 /*Especifidad 001*/
 legend {
@@ -62,12 +66,13 @@ form input[type="file"]{
 } 
 form input[type="text"]{
   width:100%;
-  padding:1em 1em;
-  margin-top:1em;
+  padding:0.5em 0.5em;
+  margin-top:0.5em;
   border:0.1em solid rgb(0, 225, 255);
-  border-radius:1em;
+  border-radius:0.5em;
   display:block;
   color:rgb(0, 0, 0);
+  text-align: center;
   background-color:rgb(255, 255, 255);
 } 
 /*Especifidad 022*/
@@ -115,5 +120,40 @@ grid-row-end:4 ;
 
 
 }
+ 
+
+ /* Tabla */
+
+ /*Especifidad 001*/
+ table {
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+width: 100%;
+border: 0.2em solid #000;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+}
+
+/*Especifidad 001*/
+th, td {
+  width: 33%;
+  text-align: left;
+  vertical-align: center;
+  border: 0.2em solid rgb(255, 0, 0);
+  border-spacing: 0;
+  border-collapse: collapse;
+  padding:0.3em;
+  
+  background-color: white;
+  color: black;
+  
+}
+
+/*Especifidad 001*/
+caption{
+padding: 0.4em;
+color: #fff;
+background: #000;
+}
+
 
 
